@@ -24,11 +24,8 @@ TapSafe repository
 │   ├── SecureActionButton
 │   └── ResultStore
 ├── overlay-demo     (package: my.edu.unikl.tapsafe.overlay)
-│   └── MainActivity
-└── docs
-    ├── REPORT_DRAFT.md
-    ├── TEAM_PLAN.md
-    └── TEST_RECORD_TEMPLATE.md
+    └── MainActivity
+
 ```
 
 ## Requirements
