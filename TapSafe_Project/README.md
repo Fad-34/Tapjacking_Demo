@@ -109,7 +109,7 @@ This coursework tool is not intended to test third-party products. If a separate
 
 - Results depend on Android version, device vendor, overlay type, opacity, and system policy.
 - Android 12+ includes protections against untrusted overlay touch pass-through. A successful pass-through is not guaranteed and should not be forced by disabling OS security.
-- The demo uses one harmless dummy action inside a fictional, generic bank-style UI ("Meridian Trust Bank (Demo)"); it does not model any real bank, permission-grant, or production workflow.
+- The demo uses one harmless dummy action inside a fictional, generic bank-style UI ("JuneBank (Demo)"); it does not model any real bank, permission-grant, or production workflow.
 - The hidden overlay button's position is a fixed `HIDDEN_BUTTON_OFFSET_DP` constant in code; it is not guaranteed to align across every device/emulator/screen size without editing that value and rebuilding, and this is expected - record what value you used.
 - The CSV log records local test outcomes only. It does not independently prove whether an OS-level block occurred before the app received an event.
 - `SYSTEM_ALERT_WINDOW` is a sensitive permission and must be granted manually by the user.
